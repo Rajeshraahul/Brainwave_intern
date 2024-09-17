@@ -40,7 +40,7 @@ Install Stageview plugin from manageJenkins -> Plugins -> Available plugins
 
 ### Configure Webhook in github & Jenkins
 
-Github Repo Setting -> Webhooks -> http://43.205.203.11:8080/github-webhook/
+Github Repo Setting -> Webhooks -> http://your_public_ip:8080/github-webhook/
 Jenkins Job -> Build Triggers -> GitHub hook trigger for GITScm polling
 
 ### Make a Commit & Run the Deployment
